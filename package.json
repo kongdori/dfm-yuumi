@@ -4,11 +4,14 @@
   "description": "유미 디스코드 던붕이 봇",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "login": "node index.js",
+    "deploy": "node deploy-command.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@keyv/sqlite": "^3.6.1",
     "discord.js": "^14.5.0"
   },
   "devDependencies": {
